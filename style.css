@@ -1,0 +1,146 @@
+:root{
+--Very-dark-blue: hsl(217, 54%, 11%);
+--Very-dark-blue: hsl(216, 50%, 16%);
+--Very-dark-blue: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+--Soft-blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+}
+body{
+    background-color:hsl(217,54%, 11%) ;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+    justify-content: center;
+}
+.layer001{
+    background-color: hsl(217, 54%, 11%);
+    border-radius: 10px;
+    height:400px;
+    width:250px;
+    position:relative;
+    top:50px;
+}
+img {
+    background-image: url(/images/image-equilibrium.jpg);
+    width: 220px;
+    height: 200px;
+    border-radius:6px;
+    position: relative;
+    top:15px;
+}
+.icon{
+    background-color: hsl(216, 50%, 16%);
+    height:430px;
+    width:100%;
+    top:0px;
+    border-radius:12px;
+    /* position:absolute; */
+}
+.letters{
+    /* display:flex; */
+    color:white;
+}
+.change{
+    color:rgb(96, 117, 129);
+    font-size: 12px;
+    text-align: left;
+    padding-right: 45px;
+    padding-left:15px;
+    margin-top: -10px;
+}
+.only{
+    position: relative;
+   right: 45px;
+}
+.view{
+    height:17px;
+    width:10px;
+    /* right:100px; */
+    top:0;
+    position:relative;
+}
+.number{
+    color:aqua;
+    display:inline;
+    padding-bottom:20px;
+    position: relative;
+    top: -3px;
+    font-size:14px;
+}
+.view,.number{
+right:25px;
+}
+.clock{
+    height:17px;
+    width:15px;
+    top:0;
+    position:relative;
+}
+.days{
+    color:rgb(96, 117, 129);
+    display:inline;
+    position:relative;
+    top:-3px;
+}
+.clock,.days{
+    left:30px;
+}
+.view,.number,.clock,.days{
+margin-top:10px;
+}
+.line{
+    width:90%;
+    margin-top:30px;
+}
+.avatar{
+    height: 33px;
+    width:31px;
+    border-radius:80px;
+    position:relative;
+    right:12px;
+}
+.last{
+    display:inline;
+    position:relative;
+    font-size:15px;
+    top:2px;
+    right:;
+}
+.grey{
+    color:grey;
+}
+.only:hover{
+    color:aqua;
+    cursor:pointer;
+}
+.hover:hover{
+    color:aqua;
+    cursor:pointer;
+}
+.icon img:hover{
+    color:aqua;
+    /* background-color: #34a3da; */
+    transition: 0.6s;
+    /* mix-blend-mode:screen; */
+    background: #34a3da;
+}
+.absolute{
+    /* position:relative; */
+    z-index:2;
+    cursor:pointer;
+}
+.absolute001{
+    /* position:absolute; */
+    
+}
+.different{
+    position:relative;
+    background-image: url(/images/icon-view.svg);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
